@@ -270,6 +270,13 @@ img:hover{
         grid-column: 4 / span 1;
     }
 
+
+
+
+}
+
+@media screen and (min-width: 1050px)
+{
     .pair>img:nth-child(2){
         display: inline-block;
         width:44%;
@@ -285,8 +292,12 @@ img:hover{
         margin-right: 5%;
         height: 150px;
     }
+    main{
+        margin-left: 3%;
+        margin-right: 3%;
 
 
+    }
 }
 
 /*
