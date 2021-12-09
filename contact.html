@@ -48,16 +48,19 @@
                 <span>Interested in me?</span>
             </div>
             <div class="QandA">
-                <label for="fname">First Name:</label>
-                <input type="text" name="name" id="fname" placeholder="Enter Your First Name"/>
-                <label for="lname">Last Name:</label>
-                <input type="text" name="name" id="lname" placeholder="Enter Your Last Name"/>
-                <label for="email">Email Address:</label>
-                <input type="text" name="email" id="email" placeholder="Enter Your Email Address"/>
-                <label for="youwanttosay"> You want to say:</label>
-                <input type="text" name="content" id="youwanttosay" placeholder="What do you want to say?"/>
+                <form action="https://formspree.io/f/mvoloznq"
+                      method="POST">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="name" id="fname" placeholder="Enter Your First Name"/>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="name" id="lname" placeholder="Enter Your Last Name"/>
+                    <label for="email">Email Address:</label>
+                    <input type="text" name="email" id="email" placeholder="Enter Your Email Address"/>
+                    <label for="youwanttosay"> You want to say:</label>
+                    <input type="text" name="content" id="youwanttosay" placeholder="What do you want to say?"/>
 
-                <input type="submit" value="Submit" id="submitbutton"/>
+                    <input type="submit" value="Submit" id="submitbutton"/>
+                </form>
             </div>
         </div>
     </main>

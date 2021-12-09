@@ -144,7 +144,30 @@ main h1{
     background-color: white;
 }
 
+@keyframes contentani {
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
+.challengecontent{
+    animation: contentani 2s;
 
+}
+
+
+.changedurl{
+    opacity: 0;
+    animation-name: contentani;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode:forwards;
+}
+
+
+@media (prefers-reduced-motion: reduce){
+    .changedurl,.challengecontent{
+        animation: none;
+    }
+}
 
 
 

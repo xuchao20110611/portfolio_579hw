@@ -32,6 +32,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/graph" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
@@ -78,7 +79,8 @@
       <workItem from="1637183375515" duration="10000" />
       <workItem from="1637282210354" duration="4711000" />
       <workItem from="1637291321682" duration="600000" />
-      <workItem from="1639013446659" duration="1253000" />
+      <workItem from="1639013446659" duration="2036000" />
+      <workItem from="1639061234800" duration="4086000" />
     </task>
     <servers />
   </component>
