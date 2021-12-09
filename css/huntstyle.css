@@ -119,7 +119,25 @@ main h1{
     text-justify:auto;
 
     padding: 0 ;
+
+    background-image: url("../graph/hunt/parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
 }
+
+
+
 
 .urlans{
     grid-column: 2/span 1;
@@ -141,7 +159,10 @@ main h1{
 }
 .huntwhite
 {
-    background-color: white;
+    background: rgba(255,255,255,0.75);
+}
+.huntgreen{
+    background-color: rgba(176, 224, 230, 0.75);
 }
 
 @keyframes contentani {
@@ -166,6 +187,9 @@ main h1{
 @media (prefers-reduced-motion: reduce){
     .changedurl,.challengecontent{
         animation: none;
+    }
+    .huntcontent{
+        background-attachment: scroll;
     }
 }
 
